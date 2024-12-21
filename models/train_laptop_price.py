@@ -96,7 +96,7 @@ final_model = LinearRegression()
 final_model.fit(X_train_best, y_train)
 
 # Save the model using pickle
-with open('model.pkl', 'wb') as file:
+with open('models/model.pkl', 'wb') as file:
     pickle.dump(final_model, file)
 
 print("Model saved successfully!")
