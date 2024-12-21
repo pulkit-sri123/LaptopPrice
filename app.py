@@ -7,7 +7,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Load the trained model (Pickle file)
-model = pickle.load(open('model.pkl', 'rb'))
+model = pickle.load(open('models/model.pkl', 'rb'))
 
 # Define the home route
 @app.route('/')
